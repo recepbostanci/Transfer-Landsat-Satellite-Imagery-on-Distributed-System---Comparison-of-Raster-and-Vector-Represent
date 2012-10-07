@@ -1,0 +1,21 @@
+Öncelikle Server'ýn IP adresi : 192.168.1.1 255.255.255.255
+	  Client'ýn IP adresi : 192.168.1.2 255.255.255.255
+olarak ayarlanýr.
+
+Server'da bulunmasý gereken klasörler "ws-server" ve "gokceada" klasörleridir. C: dizininde yer almasý 
+gerekiyor.
+
+Client' da bulunmasý gerekn klasörler "ws-desk2" ve "resimler"' dir. C: dizininde yer almasý gerekiyor.
+ 
+
+"ws-server" klasörü içinde projenin server uygulamasý bulunur. Tomcat kurulu bilgisayarda Run edilmesi yeterlidir.
+
+"ws-desk2" klasöründe projenin client uygulamasý bulunur. Eger üzerinde deðiþiklik yapýlmasý istenmiyorsa,
+içindeki "dist" klasörü içersinde bulunan .jar dosyasýnýn çalýþtýrýlmasý form'un ekrana gelmesi için yeterli
+olur. 3 adet combobox vardýr formda. birinden dosya adi seçilir. 2.sinden vector yada raster mý istek yapýlacak
+seçimi yapýlýr. 3. combobox ise þuanki çalýþýr durumda kullanýlmaz. Çünkü artýk tarama yönlerini kullanmýyoruz.
+Point deðerleri manuel olarak Arraylistlere atandý.
+
+Image transfer edildikten sonra alttaki 2 kutucukta milisaniye cinsinden süreler görülür. 
+Birincisi = t0 + t1+ t2
+Ýkincisi = t0 + t1+ t2 + t3 , deðerlerini kapsar.

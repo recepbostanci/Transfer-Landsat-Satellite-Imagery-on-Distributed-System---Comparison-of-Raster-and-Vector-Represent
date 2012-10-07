@@ -1,0 +1,7 @@
+
+1.png icin asagidan
+2.png icin yukaridan
+11.png icin sagdan, asagidan
+12.png icin soldan, asagidan
+21.png icin sagdan, yukaridan
+22.png icin soldan, yukaridan

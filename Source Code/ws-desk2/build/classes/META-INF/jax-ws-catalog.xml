@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.137.169:8080/ws-server/ImageTransService?wsdl" uri="xml-resources/web-service-references/ImageTransService/wsdl/192.168.137.169_8080/ws-server/ImageTransService.wsdl"/>
+    <system systemId="http://192.168.137.169:8080/ws-server/ImageTransService?xsd=1" uri="xml-resources/web-service-references/ImageTransService/wsdl/192.168.137.169_8080/ws-server/ImageTransService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ws-server/ImageTransService?wsdl" uri="xml-resources/web-service-references/ImageTransService/wsdl/localhost_8080/ws-server/ImageTransService.wsdl"/>
+    <system systemId="http://localhost:8080/ws-server/ImageTransService?xsd=1" uri="xml-resources/web-service-references/ImageTransService/wsdl/localhost_8080/ws-server/ImageTransService.xsd_1.xsd"/>
+    <system systemId="http://192.168.1.1:8080/ws-server/ImageTransService?wsdl" uri="xml-resources/web-service-references/ImageTransService/wsdl/192.168.1.1_8080/ws-server/ImageTransService.wsdl"/>
+    <system systemId="http://192.168.1.1:8080/ws-server/ImageTransService?xsd=1" uri="xml-resources/web-service-references/ImageTransService/wsdl/192.168.1.1_8080/ws-server/ImageTransService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ws-server/ImageTransferServicem?wsdl" uri="wsdl/localhost_8080/ws-server/ImageTransferServicem.wsdl"/>
+    <system systemId="http://localhost:8080/ws-server/ImageTransferServicem?xsd=1" uri="wsdl/localhost_8080/ws-server/ImageTransferServicem.xsd_1.xsd"/>
+    <system systemId="http://192.168.1.1:8080/ws-server/ImageTransferServicem?wsdl" uri="wsdl/192.168.1.1_8080/ws-server/ImageTransferServicem.wsdl"/>
+    <system systemId="http://192.168.1.1:8080/ws-server/ImageTransferServicem?xsd=1" uri="wsdl/192.168.1.1_8080/ws-server/ImageTransferServicem.xsd_1.xsd"/>
+</catalog>

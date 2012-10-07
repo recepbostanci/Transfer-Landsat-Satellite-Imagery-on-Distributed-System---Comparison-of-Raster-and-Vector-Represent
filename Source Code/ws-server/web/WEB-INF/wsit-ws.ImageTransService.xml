@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ImageTransServiceService" targetNamespace="http://ws/" xmlns:tns="http://ws/"
+ >
+    <message name="imageTransfer"/>
+    <message name="imageTransferResponse"/>
+    <message name="StringDondur"/>
+    <message name="StringDondurResponse"/>
+    <message name="isim"/>
+    <message name="isimResponse"/>
+    <portType name="ImageTransService">
+        <operation name="imageTransfer">
+            <input message="tns:imageTransfer"/>
+            <output message="tns:imageTransferResponse"/>
+        </operation>
+        <operation name="StringDondur">
+            <input message="tns:StringDondur"/>
+            <output message="tns:StringDondurResponse"/>
+        </operation>
+        <operation name="isim">
+            <input message="tns:isim"/>
+            <output message="tns:isimResponse"/>
+        </operation>
+    </portType>
+    <binding name="ImageTransServicePortBinding" type="tns:ImageTransService">
+        <operation name="imageTransfer">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="StringDondur">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="isim">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="ImageTransServiceService">
+        <port name="ImageTransServicePort" binding="tns:ImageTransServicePortBinding"/>
+    </service>
+</definitions>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://image.jhlabs.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://image.jhlabs.com/">
+
+<xs:element name="RasterImageTransfer" type="tns:RasterImageTransfer" />
+
+<xs:element name="RasterImageTransferResponse" type="tns:RasterImageTransferResponse" />
+
+<xs:element name="VectorIcınWH" type="tns:VectorIcınWH" />
+
+<xs:element name="VectorIcınWHResponse" type="tns:VectorIcınWHResponse" />
+
+<xs:element name="VectorImageTransfer" type="tns:VectorImageTransfer" />
+
+<xs:element name="VectorImageTransferResponse" type="tns:VectorImageTransferResponse" />
+
+<xs:element name="VektorIslemler" type="tns:VektorIslemler" />
+
+<xs:element name="VektorIslemlerResponse" type="tns:VektorIslemlerResponse" />
+
+<xs:element name="thresholdMethod" type="tns:thresholdMethod" />
+
+<xs:element name="thresholdMethodResponse" type="tns:thresholdMethodResponse" />
+
+<xs:complexType name="RasterImageTransfer">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RasterImageTransferResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:base64Binary" nillable="true" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VectorImageTransfer">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0" />
+<xs:element name="arg1" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VectorImageTransferResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VektorIslemler">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VektorIslemlerResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VectorIcınWH">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="VectorIcınWHResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="thresholdMethod">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+<xs:element name="arg1" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="thresholdMethodResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
